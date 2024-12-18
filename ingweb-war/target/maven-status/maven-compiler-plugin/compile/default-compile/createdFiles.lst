@@ -1,0 +1,8 @@
+mx\upiita\ingweb\web\controllers\CalculadoraController.class
+mx\upiita\ingweb\web\controllers\EchoController.class
+mx\upiita\ingweb\web\controllers\HoraController.class
+mx\upiita\ingweb\web\controllers\FlujoController.class
+mx\upiita\ingweb\web\controllers\jpa\ListaProductosController.class
+mx\upiita\ingweb\web\controllers\MensajesController.class
+mx\upiita\ingweb\web\controllers\FormComponentesController.class
+mx\upiita\ingweb\web\controllers\HolaMundoController.class

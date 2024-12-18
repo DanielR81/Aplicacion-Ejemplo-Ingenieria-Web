@@ -1,0 +1,4 @@
+mx\upiita\ingweb\ejb\servicio\ProductoServiceLocal.class
+mx\upiita\ingweb\ejb\modelo\EntProducto.class
+mx\upiita\ingweb\ejb\servicio\AbstractServiceFacade.class
+mx\upiita\ingweb\ejb\servicio\ProductoServiceImpl.class

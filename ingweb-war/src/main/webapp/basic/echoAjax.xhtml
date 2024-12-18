@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+
+<html xmlna="http:://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <meta charset="UTF-8"/>
+    <title>Hora Server</title>
+</h:head>
+<h:body>
+    <h1>Echo Ajax</h1>
+
+    <h:form id="formAjax">
+        <h:outputLabel for="echoEnt" value="Escribe algo: "/>
+        <h:inputText id="echoEnt" value="#{echoController.texto}">
+            <f:ajax event="keyup" render="echoSal"/>
+        </h:inputText>
+        <br/>
+        <h:outputText id="echoSal" value="#{echoController.texto}"/>
+        <br/>
+        <h:commandButton value="Enviar" action="{echoController.envio()}"/>
+    </h:form>
+</h:body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<persistence>
+    <persistence-unit name="ingewebDS" transaction-type="JTA">
+        <jta-data-source>java:/IngWebDS</jta-data-source>
+        <class>mx.upiita.ingweb.ejb.modelo.EntProducto</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <properties>
+            <property name="hibernate.hbm2ddl.auto" value="validate"/>
+            <property name="hibernate.show_sql" value="false"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+        </properties>
+    </persistence-unit>
+</persistence>
